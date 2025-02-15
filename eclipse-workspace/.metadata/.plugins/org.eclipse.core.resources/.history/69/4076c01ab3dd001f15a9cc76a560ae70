@@ -1,0 +1,20 @@
+package com.jumpstatement;
+
+public class switch_statement {
+
+	public static void main(String[] args) {
+
+	int val =2;
+	switch (val)
+	{
+		case 1:
+		System.out.println("sunday");
+		case 2:
+			System.out.println("monday");
+		case 3:
+			System.out.println("wrong input");
+	}
+	
+	}
+
+}

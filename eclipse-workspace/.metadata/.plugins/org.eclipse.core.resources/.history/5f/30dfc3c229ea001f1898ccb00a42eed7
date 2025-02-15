@@ -1,0 +1,20 @@
+package mypratice1;
+
+public class classPractice {
+public static void main(String[] args) {
+	
+	int num1=0;
+	int num2=10;
+	
+	if (num1<num2)
+	{
+		System.out.println("the num1 has the lower value");
+	}
+	else
+	{
+		System.out.println("the num2 has the higher value");
+	}
+}
+	
+	
+}

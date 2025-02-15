@@ -1,0 +1,12 @@
+package com.java.finalkeywords;
+
+public class useOffinalkeywords {
+
+	public static void main(String[] args) {
+	float pi=3.14f;
+	pi=5.4f;
+		System.out.println(pi);
+
+	}
+
+}

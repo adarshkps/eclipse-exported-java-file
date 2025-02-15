@@ -1,0 +1,8 @@
+package com.abstractpractice1;
+abstract class sportsCar
+{
+	
+}
+public class C1 {
+
+}

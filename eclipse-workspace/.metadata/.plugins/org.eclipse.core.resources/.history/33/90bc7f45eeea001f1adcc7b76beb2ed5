@@ -1,0 +1,30 @@
+package mypratice1;
+
+interface vehicle
+{
+	public abstract void fueltype();
+	public abstract void start();
+	public abstract void stopEngine();
+}
+
+public class interfacePractice implements vehicle{
+	public void fueltype()
+	{
+		System.out.println("this is the fuel capacity of a car");
+	}
+	public void start()
+	{
+		System.out.println("this is the start function of a car");
+	}
+	public void stopEngine()
+	{
+		System.out.println("this is te stopping function of a car");
+	}
+	public static void main(String[] args) {
+		interfacePractice  obj1=new interfacePractice();
+		obj1.fueltype();
+		obj1.start();
+		obj1.stopEngine();
+	}
+
+}

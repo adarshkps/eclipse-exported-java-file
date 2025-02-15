@@ -1,0 +1,26 @@
+package exceptions;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class practiceExceptions {
+
+	public static void main(String[] args) 
+ 
+ {
+	//	FileInputStream fil= new FileInputStream ("location");	in this when we place cursor on the error it will opens a selection to try/catch and create file we select. 
+
+	System.out.println("hello world");
+	try {
+		FileInputStream fil= new FileInputStream("myfile.xls");
+	} catch (FileNotFoundException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	System.out.println("hello java");
+ }
+	
+	
+	
+}
+

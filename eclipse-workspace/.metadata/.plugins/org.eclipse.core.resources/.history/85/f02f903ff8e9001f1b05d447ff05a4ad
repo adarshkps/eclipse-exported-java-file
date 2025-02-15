@@ -1,0 +1,25 @@
+package com.abstractpractice1;
+interface RBI
+{
+	public abstract void withdraw();
+	public abstract void deposit();
+}
+public class ICICI implements RBI {
+
+	public static void main(String[] args) {
+
+	}
+
+	@Override
+	public void withdraw() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deposit() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

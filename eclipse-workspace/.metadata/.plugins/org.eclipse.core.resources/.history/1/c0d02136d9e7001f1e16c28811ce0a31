@@ -1,0 +1,29 @@
+package inheritance.AccessSpec1;
+
+public class Cal {
+private	 int num1,num2;
+	
+	void div(int a, int b)
+	{
+		if(b==0)
+		{
+			System.out.println("division is not possible");
+		}
+		else
+		{
+			num1=a;
+			num2=b;
+		
+			System.out.println(num1/num2);
+			
+		}
+	}
+	
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+package polymorphismMethodOverriding;
+
+class Car{
+	
+	public void brake()
+	{
+		System.out.println("break in the car");
+	}
+	public void shiftGear()
+	{
+		System.out.println("shiftGear in the car");
+	}
+	public void accelator()
+	{
+		System.out.println("accelator in the car");
+	}
+}
+public class sportsCar extends Car {
+	public static void main(String[] args) {
+		sportsCar sc1=new sportsCar();
+		sc1.brake();
+	}
+	
+	
+}

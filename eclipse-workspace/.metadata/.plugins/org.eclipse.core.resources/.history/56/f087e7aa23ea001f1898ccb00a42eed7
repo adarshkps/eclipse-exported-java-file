@@ -1,0 +1,18 @@
+package mypratice1;
+
+public class practice1 {
+	
+	public static void main(String[] args) {
+		String s="adarsh";
+		System.out.println(s);
+		float arr[]=new float[2];
+		float num1=12.4f;
+		float num2=2.43f;
+		float num3=1.5f;
+		System.out.println(arr[1]);
+		
+		
+		
+	}
+
+}

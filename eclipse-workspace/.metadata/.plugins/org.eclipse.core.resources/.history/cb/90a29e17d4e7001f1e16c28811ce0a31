@@ -1,0 +1,14 @@
+package inheritance.AccessSpec1;
+
+public class classB {
+
+	public static void main(String[] args) {
+		
+		classA obj1=new classA();
+		obj1.pub=30;
+		obj1.def=20;
+		obj1.pro=10;
+		obj1.pri=201;
+		
+	}
+}

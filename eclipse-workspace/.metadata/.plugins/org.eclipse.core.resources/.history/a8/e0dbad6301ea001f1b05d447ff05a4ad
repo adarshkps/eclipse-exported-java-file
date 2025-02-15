@@ -1,0 +1,24 @@
+package com.abstractpractice1;
+
+public class PNB implements RBI {
+
+	@Override
+	public void withdraw() {
+		System.out.println("authentication , OTP--------> scanner");
+		System.out.println("PNB logic for withdraw money");
+	}
+
+	@Override
+	public void deposit() {
+		System.out.println("authentication , OTP--------> scanner");
+		System.out.println("PNB logic for deposit money");
+		
+	}
+	public static void main(String[] args) {
+	PNB obj1=new PNB();
+	obj1.withdraw();
+	}
+	
+	
+
+}

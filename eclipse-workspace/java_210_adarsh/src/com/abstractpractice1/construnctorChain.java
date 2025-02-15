@@ -1,0 +1,16 @@
+package com.abstractpractice1;
+ class A
+{
+	A()
+	{
+		System.out.println("there is a constructor");
+	}
+}
+public class construnctorChain extends A{
+
+	public static void main(String[] args) {
+		construnctorChain obj1=new construnctorChain();
+	
+		
+	}
+}

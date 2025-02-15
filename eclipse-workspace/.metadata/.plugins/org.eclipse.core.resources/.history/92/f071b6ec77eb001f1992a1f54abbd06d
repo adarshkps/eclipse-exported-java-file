@@ -1,0 +1,12 @@
+package com.encapsulation;
+
+public class Encapsulation {
+
+	public static void main(String[] args) {
+		Student s1=new Student();
+		s1.setEmail("adarshkp@gmail.com");
+		String e=s1.getEmail();
+		System.out.println(e);
+	
+	}
+}

@@ -1,0 +1,42 @@
+package mypratice1;
+
+public class practice1 {
+	
+	public static void main(String[] args) {
+		String s="adarsh";
+		System.out.println(s);
+		float arr[]=new float[5];
+		arr[0]=1.4f;
+		arr[1]=2.5f;
+		arr[2]=3.9f;
+		arr[3]=3.7f;
+		arr[4]=5.8f;
+		
+		System.out.println(arr[4]);
+		
+	int arr1[][]=new int[2][3];
+	arr1[0][0]=12;
+	arr1[0][1]=32;
+	arr1[0][2]=21;
+	arr1[1][0]=30;
+	arr1[1][1]=23;
+	arr1[1][2]=98;
+	
+	System.out.println(arr1[1][2]);
+	
+	int arr3[][]= {{12,34,61},
+				   {89,23,68}
+				  };
+	System.out.println(arr3[0][2]);
+	
+	String s1="adarsh is a good boy";
+	String s2="vikas is good boy";
+	System.out.println(s1.charAt(12));
+	System.out.println(s1.contains(s2));
+	
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+package com.encapsulation;
+
+public class Student {
+	private	int id;
+	private	String name;
+	private	String email;
+	private	String password;
+		
+	public void setEmail(String e)
+	{
+		// we can write some logics for the variable here
+		
+		if (e.contains("@)"))
+		{
+			this.email=e;
+			if (e.contains("gmial.com"))
+			{
+				this.email=e;
+			}
+		}
+	
+	
+	}
+	
+}

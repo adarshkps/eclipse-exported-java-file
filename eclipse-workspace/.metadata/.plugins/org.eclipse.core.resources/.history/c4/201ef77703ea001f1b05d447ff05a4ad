@@ -1,0 +1,32 @@
+package com.abstractpractice1;
+abstract class Car
+{
+	public abstract void brake();
+	public abstract void clutch();
+	public void accelator()
+	{
+		System.out.println("this is a normal method of accelator in class car");
+	}
+}
+public class C1 extends Car {
+
+	@Override
+	public void brake() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void clutch() {
+		// TODO Auto-generated method stub
+		
+	}
+	public static void main(String[] args) {
+		C1 obj1 = new C1();
+		obj1.brake();
+		obj1.clutch();
+		obj1.accelator();
+	}
+	
+	
+}

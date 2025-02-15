@@ -1,0 +1,9 @@
+package mypratice1;
+
+public class practice1 {
+	String s="adarsh";
+	public static void main(String[] args) {
+		System.out.println(s);
+	}
+
+}

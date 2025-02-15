@@ -1,0 +1,13 @@
+package inheritance.AccessSpec2;
+
+import inheritance.classA;
+
+public class classC {
+public static void main(String[] args) {
+	
+	classA obj1=new classA();
+	obj1.pub=100;
+	
+	
+}
+}
