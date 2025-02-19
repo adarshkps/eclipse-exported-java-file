@@ -2,7 +2,7 @@ package class2;
 
 public class addthreenumbers {
 
-	void addthreenumbers(int a,float b,double c)
+	public void addthreenumbers(int a,float b,double c)
 	{
 		System.out.println(a+b+c);
 	}

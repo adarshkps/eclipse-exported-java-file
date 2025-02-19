@@ -19,7 +19,7 @@ public class prime_numbers {
 			}
 			if (count == 2) 
 			{
-				System.out.println(a + " print prime number");
+				System.out.println(a  + " prime number");
 			}
 
 		}

@@ -13,7 +13,7 @@ public class returnvalues {
 		
 		returnvalues r1=new returnvalues();
 	//	r1.printwith10(10);
-		int z=r1.printwith10(10);
+		int z=r1.printwith10(19);
 		System.out.println(z);
   }
 }
